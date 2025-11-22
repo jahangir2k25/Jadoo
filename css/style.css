@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+/* navbar css */
+.navbar {
+  padding-top: 47px;
+}
+
+.navbar ul {
+  gap: 55px;
+}
+
+.navbar ul li a {
+  color: #212832;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.navbar ul .btn a {
+  color: #212832;
+  font-size: 17px;
+  font-weight: 500;
+  border: 1px solid black;
+  padding: 5px 11px 5px 11px;
+  border-radius: 3px;
+}
+
+/* banner  css  start */
+.banner-part .box {
+  position: relative;
+}
+
+.banner-play-main {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner-play-main .play-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.banner-play-main .play-btn h3 {
+  font-size: 17px;
+}
+
+.banner-part .box .img1 {
+  position: absolute;
+  right: -210px;
+  top: -145px;
+  z-index: -1;
+}
+
+.banner-part .box .banner-img {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 700px;
+}
+
+.banner-part .box h4 {
+  color: #DF6951;
+  font: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding-top: 130px;
+
+}
+
+.banner-part .box h1 {
+  color: #181E4B;
+  font-size: 84px;
+  font-weight: 600;
+  font-family: "Volkhov", serif;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  width: 545px;
+  padding-top: 24px;
+  padding-bottom: 30px;
+}
+
+.banner-part .box p {
+  color: #5E6282;
+  font: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  width: 477px;
+  padding-bottom: 34px;
+
+}
+
+.banner-part .box a {
+  padding: 19px 26px;
+  background-color: #F1A501;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.banner-part .box a:hover {
+  padding: 19px 26px;
+  background-color: #9a6900;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* banner  css  end */
+
+/* category part start */
+
+.category-part {
+  padding-top: 97px;
+  padding-bottom: 100px;
+}
+
+.category-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.category-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Volkhov", serif;
+
+}
+
+
+/* top selling css */
+
+.top-main {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.top-main h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.top-main h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+}
+
+.card-main-flex {
+  justify-content: space-between;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.card-price h6 {
+  font-size: 22px;
+}
+
+.card-price-two p {
+  font-size: 20px;
+}
+
+.book-part {
+  padding: 100px 0px;
+}
+
+.book-part p {
+font-size: 18px;
+color: #5E6282;
+}
+
+.book-heading {
+  font-size: 50px;
+  font-family: 'Volkhov', serif;
+  width: 511px;
+  font-weight: 700;
+}
+
+.book-part .book-card-one {
+  display: flex;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.book-part .card-pera {
+  width: 300px;
+}
+
+.book-part .book-img {
+  padding-top: 200px;
+  padding-left: 150px;
+}
+
+/* textmonial part css  */
+.testimonial-section {
+  background: #ffffff;
+}
+
+.testimonial-card {
+  border-radius: 15px;
+  background: #ffffff;
+  position: relative;
+}
+
+/* Avatar */
+.avatar-img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+
+/* Dots */
+.dot {
+  height: 10px;
+  width: 10px;
+  background: #d0d0d0;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.dot.active {
+  background: #4b4bff;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #6c6c6c;
+}
+
+
+/* subscribe-box css*/
+
+.subscribe-box {
+  background-image: url(/img/subscribeBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.subscribe-title {
+  color: #5E6282;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.subscribe-input-group {
+  max-width: 500px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.subscribe-btn {
+  background: #FF7F55;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.subscribe-btn:hover {
+  background: #ff6e3b;
+  color: #fff;
+}
+
+/* 
+.icon-circle {
+  width: 55px;
+  height: 55px;
+  background: #020107;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  box-shadow: 0px 10px 25px #0000004d;
+} */
+
+
+/* Background gradient */
+.footer-section {
+  background: linear-gradient(90deg, #FFFFFF 30%, #F3E9FF 100%);
+}
+
+.logo {
+  color: #181E4B;
+}
+
+.desc {
+  color: #5E6282;
+}
+
+.title {
+  color: #181E4B;
+  font-weight: 600;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #5E6282;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.footer-link:hover {
+  color: #181E4B;
+}
+
+/* Social icons — Figma gradient */
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  background: radial-gradient(circle, #ff7bcc, #8438FF);
+  color: white;
+  transform: translateY(-5px);
+}
+
+.copyright {
+  color: #5E6282;
+}
