@@ -253,15 +253,13 @@ color: #5E6282;
 
 
 /* subscribe-box css*/
-
 .subscribe-box {
   background-image: url(/img/subscribeBg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  height: 490px;
 }
 
 .subscribe-title {
